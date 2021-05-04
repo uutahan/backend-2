@@ -7,3 +7,4 @@
 - Peek operations is simple, we check our stack's top pointer and get corresponding StackNode element from our array and return it.
 - I implemented this for 3 stacks and total array's capacity as 15 but these values can be changed easily just by changing the value of 2 variables.
 - Program uses space efficiently and if there is empty space it can be used by any stack.
+- Our stack is generic we can create it with any type T.
