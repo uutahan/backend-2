@@ -7,9 +7,7 @@ namespace backend_2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-
-            ThreeStack<string> threeStack = new ThreeStack<string>();
+            IThreeStack<string> threeStack = new ThreeStack<string>();
 
             threeStack.push(1, "a");
             threeStack.push(2, "b");
